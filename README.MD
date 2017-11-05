@@ -1,3 +1,5 @@
+rnn_predicter.py 使用 LSMT 模型。截取 10个交易记录作为输入，如果 第 11个加个比第10个高，就把输出设置为 [1,0,0]，如果低就设置为 [0,0,1] ，如果相同 [0,1,0]。
+
 ## 中文说明
 [https://github.com/TensorFlowNews/TensorFlow-Bitcoin-Robot/blob/master/README_CN.MD](https://github.com/TensorFlowNews/TensorFlow-Bitcoin-Robot/blob/master/README_CN.MD)
 
